@@ -110,3 +110,4 @@ widgetsnbextension==3.6.0
 zipp==3.8.0
 bitsandbytes==0.39.0
 scikit-learn==1.2.2
+pytokenizations
