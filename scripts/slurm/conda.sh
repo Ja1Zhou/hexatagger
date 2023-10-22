@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-conda activate hgf
+conda activate $HOME/.conda/envs/hgf
