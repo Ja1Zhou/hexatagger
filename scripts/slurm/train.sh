@@ -6,10 +6,10 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gpus-per-task=a100:1
 #SBATCH --constraint=a100-80gb
-module purge
-module load gcc
-module load conda
-module load cuda/11.8.0
+#SBATCH --output=outputs/output.txt
+#SBATCH --error=outputs/error.txt
 
+source scripts/slurm/module.sh
 source scripts/slurm/cpu.sh
+source scripts/slurm/conda.sh
 bash scripts/ptb.sh
