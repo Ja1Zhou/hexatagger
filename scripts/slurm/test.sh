@@ -3,12 +3,13 @@
 #SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --gpus-per-task=a100:1
-#SBATCH --constraint=a100-40gb
+#SBATCH --constraint=a100-80gb
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
 #SBATCH --output=outputs/output_ch.txt
 #SBATCH --error=outputs/error_ch.txt
+#SBATCH --time=10:00:00
 
 source scripts/slurm/module.sh
 source scripts/slurm/cpu.sh

@@ -9,6 +9,7 @@
 #SBATCH --mem=16G
 #SBATCH --output=outputs/output.txt
 #SBATCH --error=outputs/error.txt
+#SBATCH --time=10:00:00
 
 source scripts/slurm/module.sh
 source scripts/slurm/cpu.sh
