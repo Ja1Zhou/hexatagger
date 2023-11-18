@@ -2,3 +2,4 @@ __pycache__
 runs/*
 .vscode
 .DS_Store
+checkpoints/
