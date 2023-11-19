@@ -1,0 +1,16 @@
+/home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: /home1/zhejianz/.conda/envs/hgf did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
+  warn(msg)
+/home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: WARNING: Compute capability < 7.5 detected! Only slow 8-bit matmul is supported for your GPU!
+  warn(msg)
+Random seed: 1
+11/19/2023 11:47:26 - INFO - root - Initializing Tag System
+Traceback (most recent call last):
+  File "/home1/zhejianz/parsing-as-tagging/run.py", line 627, in <module>
+    main()
+  File "/home1/zhejianz/parsing-as-tagging/run.py", line 621, in main
+    predict_command(args)
+  File "/home1/zhejianz/parsing-as-tagging/run.py", line 573, in predict_command
+    tag_system = initialize_tag_system(None, tagging_schema, args.lang,
+  File "/home1/zhejianz/parsing-as-tagging/run.py", line 131, in initialize_tag_system
+    trees=reader.parsed_sents(lang + '.bht.train'),
+AttributeError: 'NoneType' object has no attribute 'parsed_sents'
