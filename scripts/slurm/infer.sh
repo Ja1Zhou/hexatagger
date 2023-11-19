@@ -2,8 +2,7 @@
 #SBATCH --account=jonmay_231
 #SBATCH --partition=gpu
 #SBATCH --nodes=1
-#SBATCH --gpus-per-task=a100:1
-#SBATCH --constraint=a100-80gb
+#SBATCH --gpus-per-task=v100:1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=16G
