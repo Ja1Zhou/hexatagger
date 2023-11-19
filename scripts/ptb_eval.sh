@@ -1,5 +1,8 @@
+#!/usr/bin/env bash
+# caveat: training hyperparameters seem inconsistent
+# according to filenaming conventions, it seems that the training should be using lr=3e-05
 python run.py \
-    predict \
+    evaluate \
     --lang English \
     --max-depth 10 \
     --tagger hexa \

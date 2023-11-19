@@ -598,8 +598,9 @@ def predict_command(args):
             tag_system, args.output_path, args.model_name,
             args.max_depth, args.keep_per_depth, False)
 
-        with open(args.output_path + args.model_name + ".pred.json", "w") as fout:
-            print("Saving predictions to", args.output_path + args.model_name + ".pred.json")
+        os.path.makedirs(args.output_path, exist_ok=True)
+        with open(os.path.join(args.output_path, args.model_name + ".pred.json"), "w") as fout:
+            print("Saving predictions to", os.path.join(args.output_path, args.model_name + ".pred.json"))
             json.dump(pred_output, fout)
 
         """pred_output contains: {
