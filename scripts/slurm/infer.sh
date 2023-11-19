@@ -8,6 +8,8 @@
 #SBATCH --mem=16G
 #SBATCH --output=outputs/infer_output.txt
 #SBATCH --error=outputs/infer_error.txt
+#SBATCH --mail-type=BEGIN,FAIL,END        # send email when job begins
+#SBATCH --mail-user=zhejianz@usc.edu
 
 source scripts/slurm/module.sh
 source scripts/slurm/cpu.sh
