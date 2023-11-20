@@ -567,7 +567,7 @@ def predict_command(args):
         prefix = args.lang + ".bht"
     else:
         prefix = args.lang
-    reader = BracketParseCorpusReader(data_path, [prefix + '.test'])
+    reader = BracketParseCorpusReader(data_path, [])
     writer = SummaryWriter(comment=args.model_name)
     logging.info("Initializing Tag System")
     tag_system = initialize_tag_system(None, tagging_schema, args.lang,
