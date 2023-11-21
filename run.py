@@ -570,7 +570,7 @@ def predict_command(args):
     reader = BracketParseCorpusReader(data_path, [])
     writer = SummaryWriter(comment=args.model_name)
     logging.info("Initializing Tag System")
-    tag_system = initialize_tag_system(None, tagging_schema, args.lang,
+    tag_system = initialize_tag_system(reader, tagging_schema, args.lang,
                                        tag_vocab_path=args.tag_vocab_path,
                                        add_remove_top=True)
     logging.info("Preparing Data")
