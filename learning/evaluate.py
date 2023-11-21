@@ -441,7 +441,7 @@ def dependency_decoding(
         predictions, eval_labels, eval_dataset, tag_system, output_path,
         model_name, max_depth, keep_per_depth, is_greedy
 ) -> ParseMetrics:
-    ud_flag = eval_dataset.language not in {'English', 'Chinese'}
+    ud_flag = eval_dataset.language not in {'English', 'Chinese', 'input'}
 
     # This can be parallelized!
     predicted_dev_triples, predicted_dev_triples_unlabeled = [], []
