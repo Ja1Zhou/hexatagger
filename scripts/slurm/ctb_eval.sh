@@ -2,10 +2,10 @@
 #SBATCH --account=jonmay_231
 #SBATCH --partition=gpu
 #SBATCH --nodes=1
-#SBATCH --gpus-per-task=v100:1
+#SBATCH --gpus-per-task=a40:1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --mem=16G
+#SBATCH --mem=8G
 #SBATCH --output=outputs/ctb_eval_output.txt
 #SBATCH --error=outputs/ctb_eval_error.txt
 #SBATCH --mail-type=BEGIN,FAIL,END        # send email when job begins
