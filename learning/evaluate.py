@@ -479,6 +479,7 @@ def dependency_decoding(
             predicted_dev_triples.append(create_dummy_tree(original_tree.pos()))
             continue
         if tree.leaves() != original_tree.leaves():
+            print("Triggered dummy tree.")
             c_err += 1
             predicted_dev_triples.append(create_dummy_tree(original_tree.pos()))
             continue
