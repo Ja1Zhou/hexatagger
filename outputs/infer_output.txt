@@ -1,7 +1,7 @@
 ==========================================
-SLURM_JOB_ID = 17882826
-SLURM_JOB_NODELIST = a03-20
-TMPDIR = /tmp/SLURM_17882826
+SLURM_JOB_ID = 17883149
+SLURM_JOB_NODELIST = b04-09
+TMPDIR = /tmp/SLURM_17883149
 ==========================================
 
 ===================================BUG REPORT===================================
@@ -12,9 +12,10 @@ python -m bitsandbytes
  and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
 ================================================================================
 bin /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so
-CUDA SETUP: CUDA runtime path found: /spack/2206/apps/linux-centos7-x86_64_v3/gcc-11.3.0/cuda-11.8.0-w2z7mxp/lib64/libcudart.so
+CUDA SETUP: CUDA runtime path found: /spack/2206/apps/linux-centos7-x86_64_v3/gcc-11.3.0/cuda-11.8.0-w2z7mxp/lib64/libcudart.so.11.0
 CUDA SETUP: Highest compute capability among GPUs detected: 8.6
 CUDA SETUP: Detected CUDA version 118
 CUDA SETUP: Loading binary /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so...
 predict Args Namespace(command='predict', model_name='English-hexa-bert-2e-05-50', lang='English', tagger='hexa', tag_vocab_path='data/vocab/', model_path='./checkpoints/', bert_model_path='xlnet-large-cased', output_path='results/', batch_size=2, max_depth=10, is_greedy=False, keep_per_depth=1, use_tensorboard=False)
 Evaluating xlnet-large-cased, hexa
+Saving predictions to results/English-hexa-bert-2e-05-50.pred.json

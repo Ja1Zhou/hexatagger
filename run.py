@@ -21,6 +21,8 @@ from learning.evaluate import predict, dependency_eval, calc_parse_eval, calc_ta
 from learning.learn import ModelForTetratagging
 from tagging.hexatagger import HexaTagger
 
+from json_util.NPEncoder import NpEncoder
+
 # Set random seed
 RANDOM_SEED = 1
 torch.manual_seed(RANDOM_SEED)
@@ -601,7 +603,7 @@ def predict_command(args):
         os.makedirs(args.output_path, exist_ok=True)
         with open(os.path.join(args.output_path, args.model_name + ".pred.json"), "w") as fout:
             print("Saving predictions to", os.path.join(args.output_path, args.model_name + ".pred.json"))
-            json.dump(pred_output, fout)
+            json.dump(pred_output, fout, cls=NpEncoder)
 
         """pred_output contains: {
             "predicted_dev_triples": predicted_dev_triples,
