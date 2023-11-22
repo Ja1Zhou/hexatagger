@@ -441,6 +441,7 @@ def dependency_decoding(
         predictions, eval_labels, eval_dataset, tag_system, output_path,
         model_name, max_depth, keep_per_depth, is_greedy
 ) -> ParseMetrics:
+    # caveat met: eval_dataset.language = "input" for test
     ud_flag = eval_dataset.language not in {'English', 'Chinese', 'input'}
 
     # This can be parallelized!
@@ -493,6 +494,7 @@ def dependency_decoding(
         assert len(gt_triples) == len(
             pred_triples), f"wrong length {len(gt_triples)} vs. {len(pred_triples)}!"
 
+        instance_predicted_dev_triples = []
         for x, y in zip(sorted(gt_triples), sorted(pred_triples)):
             if is_punctuation(x[3]) and not ud_flag:
                 # ignoring punctuations for evaluation
@@ -502,8 +504,10 @@ def dependency_decoding(
             gold_dev_triples.append(f"{x[0]}-{x[1]}-{x[2].split(':')[0]}")
             gold_dev_triples_unlabeled.append(f"{x[0]}-{x[1]}")
 
-            predicted_dev_triples.append(f"{y[0]}-{y[1]}-{y[2].split(':')[0]}")
+            # predicted_dev_triples.append(f"{y[0]}-{y[1]}-{y[2].split(':')[0]}")
+            instance_predicted_dev_triples.append(f"{y[0]}-{y[1]}-{y[2].split(':')[0]}")
             predicted_dev_triples_unlabeled.append(f"{y[0]}-{y[1]}")
+        predicted_dev_triples.append(instance_predicted_dev_triples)
 
     if ud_flag:
         # UD

@@ -120,7 +120,7 @@ predict_parser.add_argument('--use-tensorboard', type=bool, default=False,
                            "to add credentials to run.py if set to true")
 
 
-def initialize_tag_system(reader, tagging_schema, lang, tag_vocab_path="",
+def initialize_tag_system(reader:BracketParseCorpusReader, tagging_schema, lang, tag_vocab_path="",
                           add_remove_top=False):
     tag_vocab = None
     if tag_vocab_path != "":
@@ -484,6 +484,11 @@ def _finish_training(model, tag_system, eval_dataloader, eval_dataset, eval_loss
 
 
 def decode_model_name(model_name):
+    '''
+    - Eg. English-hexa-bert-2e-05-50
+    - schema = hexa
+    - model_type = bert
+    '''
     name_chunks = model_name.split("-")
     name_chunks = name_chunks[1:]
     if name_chunks[0] == "td" or name_chunks[0] == "bu":
@@ -576,6 +581,7 @@ def predict_command(args):
                                        tag_vocab_path=args.tag_vocab_path,
                                        add_remove_top=True)
     logging.info("Preparing Data")
+    # caveat: eval_dataset.lang = "input"
     eval_dataset, eval_dataloader = prepare_test_data(
         reader, tag_system, tagging_schema,
         args.bert_model_path, args.batch_size,
