@@ -1,7 +1,7 @@
 ==========================================
-SLURM_JOB_ID = 17882826
+SLURM_JOB_ID = 17881487
 SLURM_JOB_NODELIST = a03-20
-TMPDIR = /tmp/SLURM_17882826
+TMPDIR = /tmp/SLURM_17881487
 ==========================================
 
 ===================================BUG REPORT===================================
@@ -16,5 +16,7 @@ CUDA SETUP: CUDA runtime path found: /spack/2206/apps/linux-centos7-x86_64_v3/gc
 CUDA SETUP: Highest compute capability among GPUs detected: 8.6
 CUDA SETUP: Detected CUDA version 118
 CUDA SETUP: Loading binary /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so...
-predict Args Namespace(command='predict', model_name='English-hexa-bert-2e-05-50', lang='English', tagger='hexa', tag_vocab_path='data/vocab/', model_path='./checkpoints/', bert_model_path='xlnet-large-cased', output_path='results/', batch_size=2, max_depth=10, is_greedy=False, keep_per_depth=1, use_tensorboard=False)
-Evaluating xlnet-large-cased, hexa
+Evaluation Args Namespace(command='evaluate', model_name='Chinese-hexa-bert-2e-05-50', lang='Chinese', tagger='hexa', tag_vocab_path='data/vocab/', model_path='./checkpoints/', bert_model_path='hfl/chinese-xlnet-mid', output_path='results/', batch_size=64, max_depth=10, is_greedy=False, keep_per_depth=1, use_tensorboard=False)
+Evaluating hfl/chinese-xlnet-mid, hexa
+LAS: (Recall=0.9157, Precision=0.9157, ParseMetrics=0.9157, CompleteMatch=1.0000)
+UAS: (Recall=0.9288, Precision=0.9288, ParseMetrics=0.9288, CompleteMatch=1.0000)

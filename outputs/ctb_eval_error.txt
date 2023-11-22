@@ -1,16 +1,12 @@
 /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: /home1/zhejianz/.conda/envs/hgf did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
   warn(msg)
 Random seed: 1
-11/21/2023 16:00:14 - INFO - root - Initializing Tag System
-11/21/2023 16:00:14 - INFO - root - Preparing Data
-Some weights of the model checkpoint at xlnet-large-cased were not used when initializing XLNetModel: ['lm_loss.weight', 'lm_loss.bias']
+11/21/2023 13:18:55 - INFO - root - Initializing Tag System
+11/21/2023 13:18:55 - INFO - root - Preparing Data
+Some weights of the model checkpoint at hfl/chinese-xlnet-mid were not used when initializing XLNetModel: ['lm_loss.bias', 'lm_loss.weight']
 - This IS expected if you are initializing XLNetModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing XLNetModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-Traceback (most recent call last):
-  File "/home1/zhejianz/parsing-as-tagging/run.py", line 627, in <module>
-    main()
-  File "/home1/zhejianz/parsing-as-tagging/run.py", line 621, in main
-    predict_command(args)
-  File "/home1/zhejianz/parsing-as-tagging/run.py", line 601, in predict_command
-    os.path.makedirs(args.output_path, exist_ok=True)
-AttributeError: module 'posixpath' has no attribute 'makedirs'
+11/21/2023 13:19:42 - INFO - root - odd_tags_accuracy: 0.9397169713872534
+11/21/2023 13:19:42 - INFO - root - even_tags_accuracy: 0.9528967504720263
+11/21/2023 13:19:55 - WARNING - root - Number of binarization error: 0
+
