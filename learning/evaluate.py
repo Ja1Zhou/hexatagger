@@ -1,3 +1,4 @@
+from tagging.hexatagger import HexaTagger
 import logging
 import math
 import os.path
@@ -438,7 +439,7 @@ def evalb(evalb_dir, gold_trees, predicted_trees, ref_gold_path=None) -> ParseMe
 
 
 def dependency_decoding(
-        predictions, eval_labels, eval_dataset, tag_system, output_path,
+        predictions, eval_labels, eval_dataset, tag_system: HexaTagger, output_path,
         model_name, max_depth, keep_per_depth, is_greedy
 ) -> ParseMetrics:
     # caveat met: eval_dataset.language = "input" for test

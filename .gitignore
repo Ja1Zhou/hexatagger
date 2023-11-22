@@ -3,3 +3,5 @@ runs/*
 .vscode
 .DS_Store
 checkpoints/
+
+playground.ipynb

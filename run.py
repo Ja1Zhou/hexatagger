@@ -121,7 +121,7 @@ predict_parser.add_argument('--use-tensorboard', type=bool, default=False,
 
 
 def initialize_tag_system(reader:BracketParseCorpusReader, tagging_schema, lang, tag_vocab_path="",
-                          add_remove_top=False):
+                          add_remove_top=False) -> HexaTagger:
     tag_vocab = None
     if tag_vocab_path != "":
         with open(tag_vocab_path + lang + "-" + tagging_schema + '.pkl', 'rb') as f:
@@ -130,6 +130,7 @@ def initialize_tag_system(reader:BracketParseCorpusReader, tagging_schema, lang,
     if tagging_schema == HEXATAGGER:
         # for BHT
         tag_system = HexaTagger(
+            # seems unused
             trees=reader.parsed_sents(lang + '.bht.train'),
             tag_vocab=tag_vocab, add_remove_top=False
         )

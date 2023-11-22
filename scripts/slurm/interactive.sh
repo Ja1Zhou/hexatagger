@@ -1,0 +1,1 @@
+salloc --account=jonmay_231 --partition=gpu --nodes=1 --gpus-per-task=a40:1 --ntasks=1 --cpus-per-task=1 --mem=8G
