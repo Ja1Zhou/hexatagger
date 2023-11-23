@@ -267,8 +267,12 @@ if __name__ == "__main__":
 
             dep_tree_leaves = dep_tree_leaves[1:]
 
-        print(f"Writing BHTs to {os.path.dirname(repo_directory)}/input.bht.test")
-        with open(os.path.dirname(repo_directory) + f"/bht/input.bht.test",
+        output_filename = "input.bht.test"
+        if len(sys.argv) > 2:
+            output_filename = sys.argv[2]
+        full_filename = os.path.join(os.path.dirname(repo_directory), "bht", output_filename)
+        print(f"Writing BHTs to {full_filename}")
+        with open(full_filename,
                     "w") as fout:
             for lex_tree in bhts:
                 fout.write(lex_tree._pformat_flat("", "()", False) + "\n")

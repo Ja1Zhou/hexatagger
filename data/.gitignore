@@ -6,3 +6,5 @@
 !pos/*
 !vocab/*
 !example.conll
+!test.conll
+!eval.conll
