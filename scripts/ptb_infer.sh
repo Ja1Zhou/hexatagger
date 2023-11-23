@@ -6,4 +6,5 @@ python run.py \
     --bert-model-path xlnet-large-cased \
     --model-name English-hexa-bert-2e-05-50 \
     --batch-size 2 \
-    --model-path ./checkpoints/
+    --model-path ./checkpoints/ \
+    --output-path ./garden_path_results/
