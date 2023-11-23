@@ -509,6 +509,7 @@ def dependency_decoding(
             instance_predicted_dev_triples.append(f"{y[0]}-{y[1]}-{y[2].split(':')[0]}")
             predicted_dev_triples_unlabeled.append(f"{y[0]}-{y[1]}")
         predicted_dev_triples.append(instance_predicted_dev_triples)
+        print(instance_predicted_dev_triples)
 
     if ud_flag:
         # UD

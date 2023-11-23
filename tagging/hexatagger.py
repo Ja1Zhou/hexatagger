@@ -94,6 +94,12 @@ class HexaTagger(BottomUpTetratagger, ABC):
         node = None
         # expands tags as r leaf as a right inner node and a left leaf
         expanded_tags = self.expand_tags(tags)
+        # print sentence
+        print('-' * 10)
+        print(' '.join([x[0] for x in input_seq]))
+        print('-' * 10)
+        print(tags)
+        print('-' * 10)
         if len(expanded_tags) == 1:  # base case
             assert expanded_tags[0].startswith('l')
             prefix = self._create_pre_terminal_label(expanded_tags[0], "")
