@@ -268,6 +268,7 @@ class BottomUpTetratagger(TetraTagger):
     def tags_to_tree(self, tags: [str], input_seq: [str]) -> PTree:
         created_node_stack = []
         node = None
+        # expands tags as r leaf as a right inner node and a left leaf
         expanded_tags = self.expand_tags(tags)
         if len(expanded_tags) == 1:  # base case
             assert expanded_tags[0].startswith('l')

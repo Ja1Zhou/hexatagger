@@ -1,0 +1,155 @@
+1	The	_	DT	DT	_	2	det	_	_
+2	old	_	NN	NN	_	3	nsubj	_	_
+3	man	_	VB	VB	_	0	root	_	_
+4	the	_	DT	DT	_	5	det	_	_
+5	boat	_	NN	NN	_	3	dobj	_	_
+6	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	brave	_	NN	NN	_	3	nsubj	_	_
+3	face	_	VB	VB	_	0	root	_	_
+4	any	_	DT	DT	_	5	det	_	_
+5	challenge	_	NN	NN	_	3	dobj	_	_
+6	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	weak	_	NN	NN	_	3	nsubj	_	_
+3	spot	_	VB	VB	_	0	root	_	_
+4	any	_	DT	DT	_	5	det	_	_
+5	escape	_	NN	NN	_	3	dobj	_	_
+6	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	rich	_	NN	NN	_	3	nsubj	_	_
+3	milk	_	VB	VB	_	0	root	_	_
+4	the	_	DT	DT	_	5	det	_	_
+5	taxpayers	_	NN	NNS	_	3	dobj	_	_
+6	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	smart	_	NN	NN	_	3	nsubj	_	_
+3	mentor	_	VB	VB	_	0	root	_	_
+4	their	_	PR	PRP$	_	5	poss	_	_
+5	classmates	_	NN	NNS	_	3	dobj	_	_
+6	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	homeless	_	NN	NN	_	3	nsubj	_	_
+3	shelter	_	VB	VB	_	0	root	_	_
+4	their	_	PR	PRP$	_	5	poss	_	_
+5	dogs	_	NN	NNS	_	3	dobj	_	_
+6	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	accused	_	NN	NN	_	3	nsubj	_	_
+3	police	_	VB	VB	_	0	root	_	_
+4	their	_	PR	PRP$	_	5	poss	_	_
+5	words	_	NN	NNS	_	3	dobj	_	_
+6	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	pious	_	NN	NN	_	3	nsubj	_	_
+3	right	_	VB	VB	_	0	root	_	_
+4	their	_	PR	PRP$	_	5	poss	_	_
+5	wrongs	_	NN	NNS	_	3	dobj	_	_
+6	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	religious	_	NN	NN	_	3	nsubj	_	_
+3	experience	_	VB	VB	_	0	root	_	_
+4	peace	_	NN	NN	_	3	dobj	_	_
+5	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	innocent	_	NN	NN	_	3	nsubj	_	_
+3	baby	_	VB	VB	_	0	root	_	_
+4	themselves	_	PR	PRP	_	3	dobj	_	_
+5	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	wild	_	NN	NN	_	3	nsubj	_	_
+3	ride	_	VB	VB	_	0	root	_	_
+4	ostriches	_	NN	NNS	_	3	dobj	_	_
+5	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	blind	_	NN	NN	_	3	nsubj	_	_
+3	date	_	VB	VB	_	0	root	_	_
+4	sighted	_	JJ	JJ	_	5	amod	_	_
+5	people	_	NN	NNS	_	3	dobj	_	_
+6	too	_	RB	RB	_	3	advmod	_	_
+7	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	royal	_	NN	NN	_	3	nsubj	_	_
+3	court	_	VB	VB	_	0	root	_	_
+4	only	_	RB	RB	_	3	advmod	_	_
+5	other	_	JJ	JJ	_	6	amod	_	_
+6	royals	_	NN	NNS	_	3	dobj	_	_
+7	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	strong	_	NN	NN	_	3	nsubj	_	_
+3	sense	_	VB	VB	_	0	root	_	_
+4	the	_	DT	DT	_	3	advmod	_	_
+5	weak	_	JJ	JJ	_	6	amod	_	_
+6	links	_	NN	NNS	_	3	dobj	_	_
+7	in	_	IN	IN	_	6	prep	_	_
+8	a	_	DT	DT	_	9	det	_	_
+9	group	_	NN	NN	_	7	pobj	_	_
+10	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	poor	_	NN	NN	_	3	nsubj	_	_
+3	excuse	_	VB	VB	_	0	root	_	_
+4	those	_	DT	DT	_	3	dobj	_	_
+5	who	_	WDT	WDT	_	4	ref	_	_
+6	can	_	MD	MD	_	8	aux	_	_
+7	not	_	RB	RB	_	6	neg	_	_
+8	donate	_	VB	VB	_	4	rcmod	_	_
+9	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	elderly	_	NN	NN	_	3	nsubj	_	_
+3	grandmother	_	VB	VB	_	0	root	_	_
+4	anyone	_	DT	DT	_	3	dobj	_	_
+5	who	_	WDT	WDT	_	4	ref	_	_
+6	visits	_	VB	VBP	_	4	rcmod	_	_
+7	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	deaf	_	NN	NN	_	3	nsubj	_	_
+3	kid	_	VB	VB	_	0	root	_	_
+4	about	_	IN	IN	_	3	prep	_	_
+5	hearing	_	VB	VBN	_	4	pobj	_	_
+6	things	_	NN	NNS	_	5	dobj	_	_
+7	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	British	_	NN	NNS	_	3	nsubj	_	_
+3	rule	_	VB	VB	_	0	root	_	_
+4	over	_	IN	IN	_	3	comp	_	_
+5	the	_	DT	DT	_	4	pobj	_	_
+6	UK	_	NN	NNS	_	6	det	_	_
+7	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	Chinese	_	NN	NNS	_	3	nsubj	_	_
+3	culture	_	VB	VB	_	0	root	_	_
+4	a	_	DT	DT	_	5	det	_	_
+5	sense	_	NN	NN	_	3	dobj	_	_
+6	of	_	IN	IN	_	5	prep	_	_
+7	unity	_	NN	NN	_	6	pobj	_	_
+8	amongst	_	IN	IN	_	7	prep	_	_
+9	each	_	DT	DT	_	10	det	_	_
+10	other	_	NN	NN	_	8	pobj	_	_
+11	.	_	.	.	_	3	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	guilty	_	NN	NN	_	3	nsubj	_	_
+3	look	_	VB	VB	_	0	root	_	_
+4	for	_	IN	IN	_	3	comp	_	_
+5	any	_	DT	DT	_	7	det	_	_
+6	plausible	_	JJ	JJ	_	7	amod	_	_
+7	story	_	NN	NN	_	4	pobj	_	_
+8	.	_	.	.	_	3	punct	_	_

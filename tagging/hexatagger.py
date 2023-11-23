@@ -64,6 +64,9 @@ class HexaTagger(BottomUpTetratagger, ABC):
 
     @staticmethod
     def _create_reduce_label(tag: str) -> str:
+        '''
+        Will be called dynamically.
+        '''
         idx = tag.find("/")
         if idx == -1:
             label = "X\\|"  # to mark the second part as an extra node created via binarizaiton
@@ -85,3 +88,60 @@ class HexaTagger(BottomUpTetratagger, ABC):
         expand_unary(debinarized_tree)
         # debinarized_tree.pretty_print()
         return debinarized_tree
+
+    def tags_to_tree(self, tags: [str], input_seq: [str]) -> PTree:
+        created_node_stack = []
+        node = None
+        # expands tags as r leaf as a right inner node and a left leaf
+        expanded_tags = self.expand_tags(tags)
+        if len(expanded_tags) == 1:  # base case
+            assert expanded_tags[0].startswith('l')
+            prefix = self._create_pre_terminal_label(expanded_tags[0], "")
+            return PTree(prefix + input_seq[0][1], [input_seq[0][0]])
+        for tag in expanded_tags:
+            if tag.startswith('l'):  # shift
+                # something like X^^^nn+
+                prefix = self._create_pre_terminal_label(tag, "")
+                # input_seq[0][1] will be X^^^nn+NNP, placeholder
+                # input_seq[0][0] will be the word
+                created_node_stack.append(PTree(prefix + input_seq[0][1], [input_seq[0][0]]))
+                input_seq.pop(0)
+            else:
+                node = PTree("X", [])
+                if tag.startswith('R'):  # normal reduce
+                    # left child
+                    last_node = created_node_stack.pop()
+                    # parent
+                    last_2_node = created_node_stack.pop()
+                    # should create a node with tag
+                    # left child should be the first one poped
+                    # parent should be the second one poped
+                    # should replace dummy node in parent with current node
+                    created_node_stack.append(self._reduce(node, last_node, last_2_node, tag))
+                elif tag.startswith('L'):  # unary reduce
+                    # should create a node with tag
+                    # left child should be the one poped
+                    # right child should be set to dummy
+                    created_node_stack.append(
+                        self._unary_reduce(node, created_node_stack.pop(), tag))
+        if len(input_seq) != 0:
+            raise ValueError("All the input sequence is not used")
+        return node
+
+    def _reduce(self, node, last_node, last_2_node, tag):
+        # parent node is set with label??
+        # parent as left child??
+        # right child is supposed left child??
+        label = self._create_reduce_label(tag)
+        last_2_node.set_label(label)
+        node.insert(0, last_2_node)
+        node.insert(1, last_node)
+        return node
+    
+    def _unary_reduce(self, node, last_node, tag):
+        # left child is with label + dummy??
+        # right child is supposed left child??
+        label = self._create_unary_reduce_label(tag)
+        node.insert(0, PTree(label + "\\" + label, ["EPS"]))
+        node.insert(1, last_node)
+        return node
