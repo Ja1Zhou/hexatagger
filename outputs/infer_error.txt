@@ -1,8 +1,8 @@
 /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/cuda_setup/main.py:149: UserWarning: /home1/zhejianz/.conda/envs/hgf did not contain ['libcudart.so', 'libcudart.so.11.0', 'libcudart.so.12.0'] as expected! Searching further paths...
   warn(msg)
 Random seed: 1
-11/24/2023 11:41:38 - INFO - root - Initializing Tag System
-11/24/2023 11:41:38 - INFO - root - Preparing Data
+11/24/2023 15:01:44 - INFO - root - Initializing Tag System
+11/24/2023 15:01:44 - INFO - root - Preparing Data
 Some weights of the model checkpoint at xlnet-large-cased were not used when initializing XLNetModel: ['lm_loss.bias', 'lm_loss.weight']
 - This IS expected if you are initializing XLNetModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing XLNetModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
