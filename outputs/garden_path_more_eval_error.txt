@@ -3,6 +3,10 @@
 Random seed: 1
 11/23/2023 13:28:22 - INFO - root - Initializing Tag System
 11/23/2023 13:28:22 - INFO - root - Preparing Data
-Some weights of the model checkpoint at xlnet-large-cased were not used when initializing XLNetModel: ['lm_loss.weight', 'lm_loss.bias']
+Some weights of the model checkpoint at xlnet-large-cased were not used when initializing XLNetModel: ['lm_loss.bias', 'lm_loss.weight']
 - This IS expected if you are initializing XLNetModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing XLNetModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+11/23/2023 13:29:06 - INFO - root - odd_tags_accuracy: 0.8716216216216216
+11/23/2023 13:29:06 - INFO - root - even_tags_accuracy: 0.7287234042553191
+11/23/2023 13:29:06 - WARNING - root - Number of binarization error: 0
+

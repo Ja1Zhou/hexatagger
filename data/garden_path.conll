@@ -129,8 +129,8 @@
 2	British	_	NN	NNS	_	3	nsubj	_	_
 3	rule	_	VB	VB	_	0	root	_	_
 4	over	_	IN	IN	_	3	comp	_	_
-5	the	_	DT	DT	_	4	pobj	_	_
-6	UK	_	NN	NNS	_	6	det	_	_
+5	the	_	DT	DT	_	6	pobj	_	_
+6	UK	_	NN	NNS	_	3	det	_	_
 7	.	_	.	.	_	3	punct	_	_
 
 1	The	_	DT	DT	_	2	det	_	_
