@@ -30,7 +30,7 @@ class ConllUDoc(TypedDict):
     arcs: List[arc]
 
 # Load Spacy English Model
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
 # nlp.add_pipe("conll_formatter", last=True)
 
 # Function to parse CoNLL-U file
@@ -83,7 +83,8 @@ def process_data(parsed_data: List[ConllUWord]):
     })
     
 # File path to your CoNLL-U file
-file_path = 'data/garden_path_more.conll'
+# file_path = 'data/garden_path_more.conll'
+file_path = 'data/garden_path.conll'
 
 # Parse and process the file
 parsed_data = parse_conllu(file_path)

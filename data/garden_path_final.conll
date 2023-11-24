@@ -1,0 +1,176 @@
+1	The	_	NNP	NNP	_	0	root	_	_
+2	toilet	_	NNP	NNP	_	1	nn	_	_
+3	flooded	_	NNP	NNP	_	1	nn	_	_
+4	caused	_	NNP	NNP	_	1	nn	_	_
+5	problems	_	NNP	NNP	_	1	nn	_	_
+6	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	egg	_	NNP	NNP	_	1	nn	_	_
+3	cracked	_	NNP	NNP	_	1	nn	_	_
+4	yesterday	_	NNP	NNP	_	1	nn	_	_
+5	went	_	NNP	NNP	_	1	nn	_	_
+6	bad	_	NNP	NNP	_	1	nn	_	_
+7	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	horse	_	NNP	NNP	_	1	nn	_	_
+3	raced	_	NNP	NNP	_	1	nn	_	_
+4	past	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	barn	_	NNP	NNP	_	1	nn	_	_
+7	fell	_	NNP	NNP	_	1	nn	_	_
+8	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	logs	_	NNP	NNP	_	1	nn	_	_
+3	burned	_	NNP	NNP	_	1	nn	_	_
+4	in	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	fireplace	_	NNP	NNP	_	1	nn	_	_
+7	crackled	_	NNP	NNP	_	1	nn	_	_
+8	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	pancakes	_	NNP	NNP	_	1	nn	_	_
+3	drowned	_	NNP	NNP	_	1	nn	_	_
+4	in	_	NNP	NNP	_	1	nn	_	_
+5	syrup	_	NNP	NNP	_	1	nn	_	_
+6	tasted	_	NNP	NNP	_	1	nn	_	_
+7	delicious	_	NNP	NNP	_	1	nn	_	_
+8	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	bomb	_	NNP	NNP	_	1	nn	_	_
+3	exploded	_	NNP	NNP	_	1	nn	_	_
+4	yesterday	_	NNP	NNP	_	1	nn	_	_
+5	destroyed	_	NNP	NNP	_	1	nn	_	_
+6	the	_	NNP	NNP	_	1	nn	_	_
+7	building	_	NNP	NNP	_	1	nn	_	_
+8	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	knife	_	NNP	NNP	_	1	nn	_	_
+3	carve	_	NNP	NNP	_	1	nn	_	_
+4	from	_	NNP	NNP	_	1	nn	_	_
+5	stone	_	NNP	NNP	_	1	nn	_	_
+6	drew	_	NNP	NNP	_	1	nn	_	_
+7	blood	_	NNP	NNP	_	1	nn	_	_
+8	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	turkey	_	NNP	NNP	_	1	nn	_	_
+3	cooked	_	NNP	NNP	_	1	nn	_	_
+4	in	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	oven	_	NNP	NNP	_	1	nn	_	_
+7	smelled	_	NNP	NNP	_	1	nn	_	_
+8	good	_	NNP	NNP	_	1	nn	_	_
+9	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	car	_	NNP	NNP	_	1	nn	_	_
+3	crashed	_	NNP	NNP	_	1	nn	_	_
+4	on	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	freeway	_	NNP	NNP	_	1	nn	_	_
+7	was	_	NNP	NNP	_	1	nn	_	_
+8	totaled	_	NNP	NNP	_	1	nn	_	_
+9	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	thread	_	NNP	NNP	_	1	nn	_	_
+3	spun	_	NNP	NNP	_	1	nn	_	_
+4	on	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	loom	_	NNP	NNP	_	1	nn	_	_
+7	was	_	NNP	NNP	_	1	nn	_	_
+8	green	_	NNP	NNP	_	1	nn	_	_
+9	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	muscles	_	NNP	NNP	_	1	nn	_	_
+3	developed	_	NNP	NNP	_	1	nn	_	_
+4	at	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	gym	_	NNP	NNP	_	1	nn	_	_
+7	became	_	NNP	NNP	_	1	nn	_	_
+8	sore	_	NNP	NNP	_	1	nn	_	_
+9	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	medicine	_	NNP	NNP	_	1	nn	_	_
+3	improved	_	NNP	NNP	_	1	nn	_	_
+4	over	_	NNP	NNP	_	1	nn	_	_
+5	time	_	NNP	NNP	_	1	nn	_	_
+6	cured	_	NNP	NNP	_	1	nn	_	_
+7	many	_	NNP	NNP	_	1	nn	_	_
+8	patients	_	NNP	NNP	_	1	nn	_	_
+9	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	raft	_	NNP	NNP	_	1	nn	_	_
+3	floated	_	NNP	NNP	_	1	nn	_	_
+4	to	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	survivors	_	NNP	NNP	_	1	nn	_	_
+7	saved	_	NNP	NNP	_	1	nn	_	_
+8	them	_	NNP	NNP	_	1	nn	_	_
+9	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	nurse	_	NNP	NNP	_	1	nn	_	_
+3	healed	_	NNP	NNP	_	1	nn	_	_
+4	with	_	NNP	NNP	_	1	nn	_	_
+5	chemotherapy	_	NNP	NNP	_	1	nn	_	_
+6	returned	_	NNP	NNP	_	1	nn	_	_
+7	to	_	NNP	NNP	_	1	nn	_	_
+8	work	_	NNP	NNP	_	1	nn	_	_
+9	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	soldier	_	NNP	NNP	_	1	nn	_	_
+3	dropped	_	NNP	NNP	_	1	nn	_	_
+4	from	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	plane	_	NNP	NNP	_	1	nn	_	_
+7	parachuted	_	NNP	NNP	_	1	nn	_	_
+8	to	_	NNP	NNP	_	1	nn	_	_
+9	safety	_	NNP	NNP	_	1	nn	_	_
+10	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	spoon	_	NNP	NNP	_	1	nn	_	_
+3	melted	_	NNP	NNP	_	1	nn	_	_
+4	in	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	welding	_	NNP	NNP	_	1	nn	_	_
+7	class	_	NNP	NNP	_	1	nn	_	_
+8	became	_	NNP	NNP	_	1	nn	_	_
+9	a	_	NNP	NNP	_	1	nn	_	_
+10	ring	_	NNP	NNP	_	1	nn	_	_
+11	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	truck	_	NNP	NNP	_	1	nn	_	_
+3	moved	_	NNP	NNP	_	1	nn	_	_
+4	out	_	NNP	NNP	_	1	nn	_	_
+5	of	_	NNP	NNP	_	1	nn	_	_
+6	the	_	NNP	NNP	_	1	nn	_	_
+7	garage	_	NNP	NNP	_	1	nn	_	_
+8	needed	_	NNP	NNP	_	1	nn	_	_
+9	new	_	NNP	NNP	_	1	nn	_	_
+10	oil	_	NNP	NNP	_	1	nn	_	_
+11	.	_	NNP	NNP	_	1	nn	_	_
+
+1	The	_	NNP	NNP	_	0	root	_	_
+2	dice	_	NNP	NNP	_	1	nn	_	_
+3	rolled	_	NNP	NNP	_	1	nn	_	_
+4	on	_	NNP	NNP	_	1	nn	_	_
+5	the	_	NNP	NNP	_	1	nn	_	_
+6	table	_	NNP	NNP	_	1	nn	_	_
+7	landed	_	NNP	NNP	_	1	nn	_	_
+8	on	_	NNP	NNP	_	1	nn	_	_
+9	snake	_	NNP	NNP	_	1	nn	_	_
+10	eyes	_	NNP	NNP	_	1	nn	_	_
+11	.	_	NNP	NNP	_	1	nn	_	_
