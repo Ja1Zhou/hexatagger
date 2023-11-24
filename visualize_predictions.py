@@ -118,7 +118,8 @@ def dfs_traversal(node: Node, arcs:List[arc], idx_to_words: Dict[int, word_n_tag
     label = idx_to_words[label_idx]['tag']
     arcs.append(arc(start=start, end=end, label=label, dir=dir))
 
-output_file = 'outputs/garden_path_output.txt'
+# output_file = 'outputs/garden_path_output.txt'
+output_file = 'outputs/garden_path_final_output.txt'
 # output_file = 'outputs/infer_output.txt'
 with open(output_file, 'r') as f:
     whole_output = f.read().splitlines()
