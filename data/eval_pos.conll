@@ -166,14 +166,14 @@
 1	The	_	DT	DT	_	2	det	_	_
 2	dice	_	NN	NN	_	7	nsubj	_	_
 3	rolled	_	VB	VBN	_	2	partmod	_	_
-4	on	_	IN	IN	_	6	prep	_	_
-5	the	_	DT	DT	_	4	det	_	_
-6	table	_	NN	NN	_	0	pobj	_	_
-7	landed	_	VB	VBD	_	7	root	_	_
-8	on	_	IN	IN	_	10	prep	_	_
-9	snake	_	NN	NN	_	8	nn	_	_
+4	on	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	table	_	NN	NN	_	4	pobj	_	_
+7	landed	_	VB	VBD	_	0	root	_	_
+8	on	_	IN	IN	_	7	prep	_	_
+9	snake	_	NN	NN	_	10	nn	_	_
 10	eyes	_	NN	NN	_	7	pobj	_	_
-11	.	_	.	.	_		punct	_	_
+11	.	_	.	.	_	7	punct	_	_
 
 1	The	_	DT	DT	_	2	det	_	_
 2	ball	_	NN	NN	_	7	nsubj	_	_

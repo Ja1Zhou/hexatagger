@@ -84,7 +84,7 @@ def process_data(parsed_data: List[ConllUWord]):
     
 # File path to your CoNLL-U file
 # file_path = 'data/garden_path_more.conll'
-file_path = 'data/garden_path.conll'
+file_path = 'data/eval_pos.conll'
 
 # Parse and process the file
 parsed_data = parse_conllu(file_path)
