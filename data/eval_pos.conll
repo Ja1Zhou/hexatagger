@@ -1,0 +1,198 @@
+1	The	_	DT	DT	_	2	det	_	_
+2	toilet	_	NN	NN	_	4	nsubj	_	_
+3	flooded	_	VB	VBD	_	2	partmod	_	_
+4	caused	_	VB	VBN	_	0	root	_	_
+5	problems	_	NN	NNS	_	4	dobj	_	_
+6	.	_	.	.	_	4	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	egg	_	NN	NN	_	5	nsubj	_	_
+3	cracked	_	VB	VBN	_	2	partmod	_	_
+4	yesterday	_	NN	NN	_	3	tmod	_	_
+5	went	_	VB	VBD	_	0	root	_	_
+6	bad	_	JJ	JJ	_	5	acomp	_	_
+7	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	horse	_	NN	NN	_	7	nsubj	_	_
+3	raced	_	VB	VBN	_	2	partmod	_	_
+4	past	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	barn	_	NN	NN	_	4	probj	_	_
+7	fell	_	VB	VBD	_	0	root	_	_
+8	.	_	.	.	_	7	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	logs	_	NN	NNS	_	7	nsubj	_	_
+3	burned	_	VB	VBN	_	2	partmod	_	_
+4	in	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	fireplace	_	NN	NN	_	4	pobj	_	_
+7	crackled	_	VB	VBD	_	0	root	_	_
+8	.	_	.	.	_	7	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	pancakes	_	NN	NNS	_	6	nsubj	_	_
+3	drowned	_	VB	VBN	_	2	partmod	_	_
+4	in	_	IN	IN	_	3	prep	_	_
+5	syrup	_	NN	NN	_	4	pobj	_	_
+6	tasted	_	VB	VBD	_	0	root	_	_
+7	delicious	_	JJ	JJ	_	6	acomp	_	_
+8	.	_	.	.	_	6	punct	_	_
+
+1	The	_	NN	DT	_	2	det	_	_
+2	bomb	_	NN	NN	_	5	nsubj	_	_
+3	exploded	_	VB	VBN	_	2	partmod	_	_
+4	yesterday	_	NN	NN	_	3	tmod	_	_
+5	destroyed	_	VB	VBD	_	0	root	_	_
+6	the	_	DT	DT	_	7	det	_	_
+7	building	_	NN	NN	_	5	dobj	_	_
+8	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	knife	_	NN	NN	_	6	nsubj	_	_
+3	carved	_	VB	VBN	_	2	partmod	_	_
+4	from	_	IN	IN	_	3	prep	_	_
+5	stone	_	NN	NN	_	4	pobj	_	_
+6	drew	_	VB	VBD	_	0	root	_	_
+7	blood	_	NN	NN	_	6	dobj	_	_
+8	.	_	.	.	_	6	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	turkey	_	NN	NN	_	7	nsubj	_	_
+3	cooked	_	VB	VBN	_	2	partmod	_	_
+4	in	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	oven	_	NN	NN	_	4	pobj	_	_
+7	smelled	_	VB	VBD	_	0	root	_	_
+8	good	_	JJ	JJ	_	7	acomp	_	_
+9	.	_	.	.	_	7	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	car	_	NN	NN	_	8	nsubj	_	_
+3	crashed	_	VB	VBN	_	2	part	_	_
+4	on	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	freeway	_	NN	NN	_	4	pobj	_	_
+7	was	_	VB	VBD	_	8	aux	_	_
+8	totaled	_	JJ	JJ	_	0	root	_	_
+9	.	_	.	.	_	8	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	thread	_	NN	NN	_	8	nsubj	_	_
+3	spun	_	VB	VBN	_	2	partmod	_	_
+4	on	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	loom	_	NN	NN	_	4	pobj	_	_
+7	was	_	VBD	VBD	_	8	aux	_	_
+8	green	_	JJ	JJ	_	0	root	_	_
+9	.	_	.	.	_	8	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	muscles	_	NN	NNS	_	8	nsubj	_	_
+3	developed	_	NN	VBN	_	2	partmod	_	_
+4	at	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	gym	_	NN	NN	_	4	pobj	_	_
+7	became	_	VB	VBD	_	8	cop	_	_
+8	sore	_	JJ	JJ	_	0	root	_	_
+9	.	_	.	.	_	8	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	medicine	_	NN	NN	_	6	nsubj	_	_
+3	improved	_	VB	VBN	_	2	partmod	_	_
+4	over	_	IN	IN	_	3	prep	_	_
+5	time	_	NN	NN	_	6	pobj	_	_
+6	cured	_	VB	VBD	_	0	root	_	_
+7	many	_	DT	DT	_	8	det	_	_
+8	patients	_	NN	NN	_	6	dobj	_	_
+9	.	_	.	.	_	6	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	raft	_	NN	NN	_	7	nsubj	_	_
+3	floated	_	VB	VBN	_	2	partmod	_	_
+4	to	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	survivors	_	NN	NNS	_	4	pobj	_	_
+7	saved	_	VB	VBD	_	0	root	_	_
+8	them	_	PRP	PRP	_	7	dobj	_	_
+9	.	_	.	.	_	7	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	nurse	_	NN	NN	_	6	nsubj	_	_
+3	healed	_	VB	VBN	_	2	partmod	_	_
+4	with	_	IN	IN	_	3	prep	_	_
+5	chemotherapy	_	NN	NN	_	4	pobj	_	_
+6	returned	_	VB	VBD	_	0	root	_	_
+7	to	_	IN	IN	_	6	prep	_	_
+8	work	_	NN	NN	_	7	pobj	_	_
+9	.	_	.	.	_	6	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	soldier	_	NN	NN	_	7	nsubj	_	_
+3	dropped	_	VB	VBN	_	2	partmod	_	_
+4	from	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	plane	_	NN	NN	_	4	pobj	_	_
+7	parachuted	_	VB	VBD	_	0	root	_	_
+8	to	_	IN	IN	_	7	prep	_	_
+9	safety	_	NN	NN	_	8	pobj	_	_
+10	.	_	.	.	_	7	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	spoon	_	NN	NN	_	10	nsubj	_	_
+3	melted	_	VB	VBN	_	2	partmod	_	_
+4	in	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	7	det	_	_
+6	welding	_	NN	NN	_	7	nn	_	_
+7	class	_	NN	NN	_	4	pobj	_	_
+8	became	_	VB	VBD	_	10	cop	_	_
+9	a	_	DT	DT	_	10	det	_	_
+10	ring	_	NN	NN	_	0	root	_	_
+11	.	_	.	.	_	10	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	truck	_	NN	NN	_	8	nsubj	_	_
+3	moved	_	VB	VBN	_	2	partmod	_	_
+4	out	_	IN	IN	_	3	prep	_	_
+5	of	_	IN	IN	_	4	pcomp	_	_
+6	the	_	DT	DT	_	7	det	_	_
+7	garage	_	NN	NN	_	5	pobj	_	_
+8	needed	_	VB	VBD	_	0	root	_	_
+9	new	_	JJ	JJ	_	10	amod	_	_
+10	oil	_	NN	NN	_	8	dobj	_	_
+11	.	_	.	.	_	8	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	dice	_	NN	NN	_	7	nsubj	_	_
+3	rolled	_	VB	VBN	_	2	partmod	_	_
+4	on	_	IN	IN	_	6	prep	_	_
+5	the	_	DT	DT	_	4	det	_	_
+6	table	_	NN	NN	_	0	pobj	_	_
+7	landed	_	VB	VBD	_	7	root	_	_
+8	on	_	IN	IN	_	10	prep	_	_
+9	snake	_	NN	NN	_	8	nn	_	_
+10	eyes	_	NN	NN	_	7	pobj	_	_
+11	.	_	.	.	_		punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	ball	_	NN	NN	_	7	nsubj	_	_
+3	bounced	_	VB	VBN	_	2	partmod	_	_
+4	on	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	bed	_	NN	NN	_	4	pobj	_	_
+7	hit	_	VB	VBD	_	0	root	_	_
+8	my	_	PR	PRP$	_	9	poss	_	_
+9	head	_	NN	NN	_	7	dobj	_	_
+10	.	_	.	.	_	7	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	water	_	NN	NN	_	7	nsubj	_	_
+3	boiled	_	VB	VBN	_	2	partmod	_	_
+4	on	_	IN	IN	_	3	prep	_	_
+5	the	_	DT	DT	_	6	det	_	_
+6	stove	_	NN	NN	_	4	pobj	_	_
+7	burned	_	VB	VBD	_	0	root	_	_
+8	my	_	PR	PRP$	_	9	poss	_	_
+9	hand	_	NN	NN	_	7	dobj	_	_
+10	.	_	.	.	_	7	punct	_	_
