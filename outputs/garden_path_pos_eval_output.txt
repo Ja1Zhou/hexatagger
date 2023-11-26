@@ -1,7 +1,7 @@
 ==========================================
-SLURM_JOB_ID = 17927082
+SLURM_JOB_ID = 17927083
 SLURM_JOB_NODELIST = b05-11
-TMPDIR = /tmp/SLURM_17927082
+TMPDIR = /tmp/SLURM_17927083
 ==========================================
 
 ===================================BUG REPORT===================================
@@ -16,126 +16,107 @@ CUDA SETUP: CUDA runtime path found: /spack/2206/apps/linux-centos7-x86_64_v3/gc
 CUDA SETUP: Highest compute capability among GPUs detected: 8.6
 CUDA SETUP: Detected CUDA version 118
 CUDA SETUP: Loading binary /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so...
-predict Args Namespace(command='predict', model_name='English-hexa-bert-2e-05-50', lang='English', tagger='hexa', tag_vocab_path='data/vocab/', model_path='./checkpoints/', bert_model_path='xlnet-large-cased', output_path='./garden_path_results/', batch_size=32, max_depth=10, is_greedy=False, keep_per_depth=1, use_tensorboard=False)
+Evaluation Args Namespace(command='evaluate', model_name='English-hexa-bert-2e-05-50', lang='English', tagger='hexa', tag_vocab_path='data/vocab/', model_path='./checkpoints/', bert_model_path='xlnet-large-cased', output_path='results/', batch_size=64, max_depth=10, is_greedy=False, keep_per_depth=1, use_tensorboard=False)
 Evaluating xlnet-large-cased, hexa
 ----------
 The toilet flooded caused problems .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/dep', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-2-nsubj', '2-3-dep', '3--1-root', '4-3-dobj']
 ----------
 The egg cracked yesterday went bad .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'r/tmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/acomp', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-4-nsubj', '2-1-partmod', '3-2-tmod', '4--1-root', '5-4-acomp']
 ----------
 The horse raced past the barn fell .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/dep', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-2-nsubj', '2--1-root', '3-2-prep', '4-5-det', '5-3-pobj', '6-2-dep']
 ----------
 The logs burned in the fireplace crackled .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-6-nsubj', '2-1-partmod', '3-2-prep', '4-5-det', '5-3-pobj', '6--1-root']
 ----------
 The pancakes drowned in syrup tasted delicious .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'r/pobj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/acomp', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-5-nsubj', '2-1-partmod', '3-2-prep', '4-3-pobj', '5--1-root', '6-5-acomp']
 ----------
 The bomb exploded yesterday destroyed the building .
 ----------
 ['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'r/partmod', 'L/X^^^0', 'r/tmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-nn', '1-4-nsubj', '2-1-partmod', '3-1-tmod', '4--1-root', '5-6-det', '6-4-dobj']
 ----------
 The knife carved from stone drew blood .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'r/pobj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-5-nsubj', '2-1-partmod', '3-2-prep', '4-3-pobj', '5--1-root', '6-5-dobj']
 ----------
 The turkey cooked in the oven smelled good .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/acomp', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-6-nsubj', '2-1-partmod', '3-2-prep', '4-5-det', '5-3-pobj', '6--1-root', '7-6-acomp']
 ----------
 The car crashed on the freeway was totaled .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'l/aux', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-7-nsubj', '2-1-partmod', '3-2-prep', '4-5-det', '5-3-pobj', '6-7-aux', '7--1-root']
 ----------
 The thread spun on the loom was green .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'l/cop', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-7-nsubj', '2-1-partmod', '3-2-prep', '4-5-det', '5-3-pobj', '6-7-cop', '7--1-root']
 ----------
 The muscles developed at the gym became sore .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'l/cop', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-7-nsubj', '2-1-dep', '3-2-prep', '4-5-det', '5-3-pobj', '6-7-cop', '7--1-root']
 ----------
 The medicine improved over time cured many patients .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'r/pobj', 'L/X^^^0', 'l/ccomp', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-2-nsubj', '2--1-root', '3-2-prep', '4-3-pobj', '5-2-ccomp', '6-7-det', '7-5-dobj']
 ----------
 The raft floated to the survivors saved them .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'l/xcomp', 'R/X^^^0', 'r/dobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-2-nsubj', '2--1-root', '3-2-prep', '4-5-det', '5-3-pobj', '6-2-xcomp', '7-6-dobj']
 ----------
 The nurse healed with chemotherapy returned to work .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'r/pobj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'r/pobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-5-nsubj', '2-1-partmod', '3-2-prep', '4-3-pobj', '5--1-root', '6-5-prep', '7-6-pobj']
 ----------
 The soldier dropped from the plane parachuted to safety .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'r/pobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-6-nsubj', '2-1-partmod', '3-2-prep', '4-5-det', '5-3-pobj', '6--1-root', '7-6-prep', '8-7-pobj']
 ----------
 The spoon melted in the welding class became a ring .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'l/nn', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'l/cop', 'R/X^^^1', 'l/det', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-9-nsubj', '2-1-dep', '3-2-prep', '4-6-det', '5-6-nn', '6-3-pobj', '7-9-cop', '8-9-det', '9--1-root']
 ----------
 The truck moved out of the garage needed new oil .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/pcomp', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'l/ccomp', 'R/X^^^0', 'l/amod', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-2-nsubj', '2--1-root', '3-2-prep', '4-3-pcomp', '5-6-det', '6-4-pobj', '7-2-ccomp', '8-9-amod', '9-7-dobj']
 ----------
 The dice rolled on the table landed on snake eyes .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/partmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-6-nsubj', '2-1-partmod', '3-2-prep', '4-5-det', '5-3-pobj', '6--1-root', '7-6-prep', '8-9-nn', '9-7-pobj']
 ----------
 The ball bounced on the bed hit my head .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'r/root', 'R/X^^^0', 'l/prep', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1--1-nsubj', '2-6-dep', '3-2-prep', '4-5-det', '5-3-pobj', '6-1-root', '7-8-prep', '8-6-dobj']
 ----------
 The water boiled on the stove burned my hand .
 ----------
 ['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'r/dep', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
 ----------
-['0-1-det', '1-6-nsubj', '2-1-dep', '3-1-prep', '4-5-det', '5-3-pobj', '6--1-root', '7-8-det', '8-6-dobj']
-Saving predictions to ./garden_path_results/English-hexa-bert-2e-05-50.pred.json
+LAS: (Recall=0.8113, Precision=0.8113, ParseMetrics=0.8113, CompleteMatch=1.0000)
+UAS: (Recall=0.8679, Precision=0.8679, ParseMetrics=0.8679, CompleteMatch=1.0000)
