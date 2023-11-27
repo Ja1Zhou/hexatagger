@@ -5,10 +5,13 @@
 !bht/*
 !pos/*
 !vocab/*
-!example.conll
-!test.conll
-!eval.conll
-!garden_path.conll
-!garden_path_more.conll
-!garden_path_final.conll
-!eval_pos.conll
+# !example.conll
+# !test.conll
+# !eval.conll
+# !garden_path.conll
+# !garden_path_more.conll
+# !garden_path_final.conll
+# !eval_pos.conll
+# !eval_NAVN.conll
+# !eval_WVNV.conll
+!*.conll
