@@ -1,0 +1,122 @@
+==========================================
+SLURM_JOB_ID = 17931951
+SLURM_JOB_NODELIST = a03-06
+TMPDIR = /tmp/SLURM_17931951
+==========================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so
+CUDA SETUP: CUDA runtime path found: /spack/2206/apps/linux-centos7-x86_64_v3/gcc-11.3.0/cuda-11.8.0-w2z7mxp/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 8.6
+CUDA SETUP: Detected CUDA version 118
+CUDA SETUP: Loading binary /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so...
+Evaluation Args Namespace(command='evaluate', model_name='English-hexa-bert-2e-05-50', lang='English', tagger='hexa', tag_vocab_path='data/vocab/', model_path='./checkpoints/', bert_model_path='xlnet-large-cased', output_path='results/', batch_size=64, max_depth=10, is_greedy=False, keep_per_depth=1, use_tensorboard=False)
+Evaluating xlnet-large-cased, hexa
+----------
+The old man the boat .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'r/punct']
+----------
+----------
+The brave face any challenge .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The weak spot any escape .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'r/punct']
+----------
+----------
+The rich milk the taxpayers .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The smart mentor their classmates .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The homeless shelter their dogs .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dobj', 'L/X^^^0', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The accused police their words .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The pious right their wrongs .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The religious experience peace .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The innocent baby themselves .
+----------
+['l/det', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dep', 'L/X^^^0', 'r/punct', 'L/X^^^0', 'r/punct']
+----------
+----------
+The wild ride ostriches .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The blind date sighted people too .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'l/dep', 'R/X^^^1', 'l/amod', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/advmod', 'L/X^^^0', 'r/punct']
+----------
+----------
+The royal court only other royals .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'r/root', 'L/X^^^0', 'l/advmod', 'R/X^^^1', 'l/amod', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'r/punct']
+----------
+----------
+The strong sense the weak links in a group .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'L/X^^^1', 'l/amod', 'R/X^^^1', 'r/dobj', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The poor excuse those who can not donate .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/dobj', 'R/X^^^0', 'l/nsubj', 'R/X^^^1', 'l/aux', 'R/X^^^1', 'l/neg', 'R/X^^^1', 'r/rcmod', 'L/X^^^0', 'r/punct']
+----------
+----------
+The elderly grandmother anyone who visits .
+----------
+['l/det', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dep', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^0', 'r/punct']
+----------
+----------
+The deaf kid about hearing things .
+----------
+['l/det', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dep', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/pcomp', 'R/X^^^0', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The British rule over the UK .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The Chinese culture a sense of unity amongst each other .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'L/X^^^1', 'r/dobj', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/pobj', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+----------
+The guilty look for any plausible story .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'l/amod', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+LAS: (Recall=0.7586, Precision=0.7586, ParseMetrics=0.7586, CompleteMatch=1.0000)
+UAS: (Recall=0.7845, Precision=0.7845, ParseMetrics=0.7845, CompleteMatch=1.0000)
