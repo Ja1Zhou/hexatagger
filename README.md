@@ -117,15 +117,59 @@ python run.py evaluate --lang English --max-depth 10 --tagger hexa --bert-model-
 python run.py evaluate --lang Chinese --max-depth 10 --tagger hexa --bert-model-path bert-base-chinese --model-name Chinese-hexa-bert-2e-05-50 --batch-size 64 --model-path ./checkpoints/
 ```
 ### Reproduced Results
+1. We do obtain consistently lower performance on all metrics, yet they are all within 1% of the original results.
+2. We also observe that our reproduced results are within 2% of SOTA performances. It is safe to conclude that `Hexatagger` achieves performances comparable to SOTA.
 <p align="center">
   <img src="./images/reproduced_results.png">
 </p>
 
 ## Predict
-### PTB
+### Fix Caveats
+The authors tweaked their repo to provide inference support with trained models. This relies on treating the language of provided test file as `input` rather than `English` or `Chinese`, which has unintended consequences. The following commands are therefore needed.
 ```bash
-python run.py predict --lang English --max-depth 10 --tagger hexa --bert-model-path xlnet-large-cased --model-name English-hexa-bert-3e-05-50 --batch-size 64 --model-path ./checkpoints/
+# suppose that test file is in English
+cp data/bht/English.bht.train data/bht/input.bht.train
+cp data/pos/pos.english.json data/pos/pos.input.json
 ```
+### Preparing Test File
+An example test file that we used could be found [here](./data/garden_path.conll).
+
+Test files are in [CONLL-U format](https://universaldependencies.org/format.html). Note that `UPOS` do not follow the universal POS tags. Rather, it is `XPOS` that is of interest here. If unspecified, the model would perform poorly.
+
+Also, `HEAD` and `DEPREL` need to be specified if automatic evaluation on the test file is desired.
+
+|ID|FORM|LEMMA|UPOS|XPOS|FEATS|HEAD|DEPREL|DEPS|MISC|
+|---|----|---|---|---|---|---|-----|---|---|
+|1  |The |_  |DT |DT |_  |2  |det  |_  |_  |
+|2  |old |_  |NN |NN |_  |3  |nsubj|_  |_  |
+|3  |man |_  |VB |VB |_  |0  |root |_  |_  |
+|4  |the |_  |DT |DT |_  |5  |det  |_  |_  |
+|5  |boat|_  |NN |NN |_  |3  |dobj |_  |_  |
+|6  |.   |_  |.  |.  |_  |3  |punct|_  |_  |
+
+At a minimum, `UPOS`, `XPOS`, `HEAD` and `DEPREL` could be placeholders. For example, the following is a valid test file.
+|ID|FORM|LEMMA|UPOS|XPOS|FEATS|HEAD|DEPREL|DEPS|MISC|
+|---|----|---|---|---|---|---|-----|---|---|
+|1  |This|_  |NNP|NNP|_  |0  |root |_  |_  |
+|2  |is  |_  |NNP|NNP|_  |1  |nn   |_  |_  |
+|3  |an  |_  |NNP|NNP|_  |1  |nn   |_  |_  |
+|4  |example|_  |NNP|NNP|_  |1  |nn   |_  |_  |
+|5  |.   |_  |NNP|NNP|_  |1  |nn   |_  |_  |
+#### Visualizing Input Test File
+
+### Generate Binary-Headed-Trees
+```bash
+cd data/
+# could replace garden_path.conll with any test file under folder `data/`
+python dep2bht.py garden_path.conll
+cd ../
+```
+### Inference Command
+```bash
+python run.py predict --lang English --max-depth 10 --tagger hexa --bert-model-path xlnet-large-cased --model-name English-hexa-bert-2e-05-50 --batch-size 64 --model-path ./checkpoints/
+```
+#### Outputs
+An example output file could be found [here](./outputs/garden_path_output.txt).
 
 # Citing the Original Paper
 ```bibtex
