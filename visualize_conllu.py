@@ -1,3 +1,4 @@
+import sys
 import spacy
 # import spacy_conll
 from conllu import parse
@@ -85,7 +86,8 @@ def process_data(parsed_data: List[ConllUWord]):
 # File path to your CoNLL-U file
 # file_path = 'data/garden_path_more.conll'
 file_path = 'data/eval_pos.conll'
-
+if len(sys.argv) > 1:
+    file_path = sys.argv[1]
 # Parse and process the file
 parsed_data = parse_conllu(file_path)
 docs = list(map(process_data, parsed_data))

@@ -1,3 +1,4 @@
+import sys
 from spacy import displacy
 from typing import TypedDict, List, Dict, Tuple
 class word_n_tag(TypedDict):
@@ -122,6 +123,9 @@ def dfs_traversal(node: Node, arcs:List[arc], idx_to_words: Dict[int, word_n_tag
 # output_file = 'outputs/garden_path_final_output.txt'
 # output_file = 'outputs/garden_path_final_with_pos_output.txt'
 output_file = 'outputs/garden_path_pos_output.txt'
+if len(sys.argv) > 1:
+    output_file = sys.argv[1]
+
 # output_file = 'outputs/infer_output.txt'
 with open(output_file, 'r') as f:
     whole_output = f.read().splitlines()

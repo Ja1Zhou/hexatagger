@@ -156,6 +156,15 @@ At a minimum, `UPOS`, `XPOS`, `HEAD` and `DEPREL` could be placeholders. For exa
 |4  |example|_  |NNP|NNP|_  |1  |nn   |_  |_  |
 |5  |.   |_  |NNP|NNP|_  |1  |nn   |_  |_  |
 #### Visualizing Input Test File
+```bash
+# replace `data/garden_path_more.conll` with your test conll file
+python visualize_conllu.py data/garden_path_more.conll
+# Should output `Serving on http://0.0.0.0:5001 ...`, the actual port may differ
+```
+You can access the visualizations in your browser. Here is an example.
+<p align="center">
+  <img src="./images/test_file_visualization.png">
+</p>
 
 ### Generate Binary-Headed-Trees
 ```bash
@@ -163,13 +172,30 @@ cd data/
 # could replace garden_path.conll with any test file under folder `data/`
 python dep2bht.py garden_path.conll
 cd ../
+# would generate file `data/bht/input.bht.test`
 ```
 ### Inference Command
 ```bash
+# runs inference reading from `data/bht/input.bht.test`
 python run.py predict --lang English --max-depth 10 --tagger hexa --bert-model-path xlnet-large-cased --model-name English-hexa-bert-2e-05-50 --batch-size 64 --model-path ./checkpoints/
 ```
 #### Outputs
 An example output file could be found [here](./outputs/garden_path_output.txt).
+
+In our case, the output file is specified in the slurm script used. You might want to direct the output of our previous inference command to a desired output file.
+```bash
+python run.py predict --lang English --max-depth 10 --tagger hexa --bert-model-path xlnet-large-cased --model-name English-hexa-bert-2e-05-50 --batch-size 64 --model-path ./checkpoints/ 1> outputs/garden_path_more_output.txt
+```
+#### Visualizing Model Outputs
+```bash
+# replace `outputs/garden_path_more_output.txt` with your log output file of inference
+python visualize_predictions.py outputs/garden_path_more_output.txt
+# Should output `Serving on http://0.0.0.0:5001 ...`, the actual port may differ
+```
+Here is an example visualization.
+<p align="center">
+  <img src="./images/model_output_visualization.png">
+</p>
 
 # Citing the Original Paper
 ```bibtex
