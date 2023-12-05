@@ -37,8 +37,7 @@ named `00`-`24`.
 2. Place a copy of the revised Penn Treebank
 ([LDC2015T13](https://catalog.ldc.upenn.edu/LDC2015T13)) under
 `data/raw/eng_news_txt_tbnk-ptb_revised`.
-`pytokenizations` installed.
-4. `cd data/wsj && ./build_corpus.sh`
+3. `cd data/wsj && ./build_corpus.sh`
 
 Processed trees are written to the following files:
 
@@ -60,13 +59,30 @@ Processed trees are written to the following files:
 | `train_02-21.LDC99T42.retokenized` | Syntatic annotations (labeled brackets) from the standard training split, overlaid on top of the revised tokenization. |
 | `dev_22.LDC99T42.retokenized`      | Syntatic annotations (labeled brackets) from the standard development/validation split, overlaid on top of the revised tokenization. |
 | `test_23.LDC99T42.retokenized`     | Syntatic annotations (labeled brackets) from the standard test split, overlaid on top of the revised tokenization. |
-### Dependency Parsing with Hexatagger
+#### Chinese Treebank (CTB 5.1)
+
+This prepares the standard Chinese constituency parsing split, following recent papers such as [Liu and Zhang (2017)](https://www.aclweb.org/anthology/Q17-1004/).
+
+1. Place a copy of the Chinese Treebank 5.1
+([LDC2005T01](https://catalog.ldc.upenn.edu/LDC2005T01)) in `data/raw/ctb5.1_507K`.
+2. `cd data/ctb_5.1 && ./build_corpus.sh`
+
+Processed trees are written to the following files:
+
+
+| File in `data/ctb_5.1/` | Description                                         |
+| ----------------------- | --------------------------------------------------- |
+| `ctb.train`             | The standard training split for Chinese constituency parsing publications. |
+| `ctb.dev`               | The standard development split for Chinese constituency parsing publications. |
+| `ctb.test`              | The standard test split for Chinese constituency parsing publications. |
+
+### Generating Binary-Headed-Trees
 1. Convert CoNLL to Binary Headed Trees:
 ```bash
 python data/dep2bht.py
 ```
 This will generate the phrase-structured BHT trees in the `data/bht` directory. 
-We placed the processed files already under the `data/bht` directory.
+(The authors placed the processed files already under the `data/bht` directory.)
 
 ## Building The Tagging Vocab
 In order to use taggers, we need to build the vocabulary of tags for in-order, pre-order and post-order linearizations. You can cache these vocabularies using:
