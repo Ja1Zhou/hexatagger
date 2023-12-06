@@ -8,5 +8,5 @@ python run.py \
     --tagger hexa \
     --bert-model-path xlnet-large-cased \
     --model-name English-hexa-bert-2e-05-50 \
-    --batch-size 64 \
+    --batch-size 128 \
     --model-path ./checkpoints/

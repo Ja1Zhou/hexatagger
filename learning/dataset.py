@@ -69,8 +69,11 @@ class TaggingDataset(torch.utils.data.Dataset):
             print(len(self.trees), "trees after filtering")
         else:
             # speed up!
+            # also log here for reproduction
+            print(len(self.trees), "trees before filtering")
             self.trees = [
                 tree for tree in self.trees if len(tree.leaves()) <= max_train_len]
+            print(len(self.trees), "trees after filtering")
 
         if not os.path.exists(
                 f"./data/pos.{language.lower()}.json") and "train" in split:

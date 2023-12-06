@@ -1,3 +1,4 @@
+import time
 import os
 import argparse
 import logging
@@ -189,7 +190,7 @@ def prepare_test_data(reader, tag_system, tagging_schema, model_name, batch_size
         model_name, truncation=True, use_fast=True)
     test_dataset = TaggingDataset(
         prefix + '.test', tokenizer, tag_system, reader, device,
-        is_tetratags=is_tetratags, language=lang
+        is_tetratags=is_tetratags, language=lang, max_train_len=256
     )
     test_dataloader = DataLoader(
         test_dataset, batch_size=batch_size, collate_fn=test_dataset.collate
@@ -542,9 +543,11 @@ def evaluate_command(args):
 
     num_leaf_labels, num_tags = calc_num_tags_per_task(tagging_schema, tag_system)
 
+    start_time = time.time()
     predictions, eval_labels = predict(
         model, eval_dataloader, len(eval_dataset),
         num_tags, args.batch_size, device)
+    print("Time taken for evaluation forward: ", time.time() - start_time)
     calc_tag_accuracy(predictions, eval_labels,
                       num_leaf_labels, writer, args.use_tensorboard)
     if tagging_schema == HEXATAGGER:
@@ -564,6 +567,9 @@ def evaluate_command(args):
                                         args.keep_per_depth,
                                         args.is_greedy)
         print(parse_metrics)
+    print('Total Memory:', torch.cuda.get_device_properties(0).total_memory)
+    print('Allocated Memory:', torch.cuda.memory_allocated(0))
+    print('Cached Memory:', torch.cuda.memory_reserved(0)) 
 
 
 def predict_command(args):
