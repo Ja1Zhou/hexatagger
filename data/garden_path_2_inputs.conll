@@ -1,0 +1,207 @@
+1	The	_	DT	DT	_	2	det	_	_
+2	dog	_	NN	NN	_	5	nsubj	_	_
+3	that	_	WD	WDT	_	4	nsubj	_	_
+4	plays	_	VB	VBZ	_	2	rcmod	_	_
+5	fetches	_	VB	VBZ	_	0	root	_	_
+6	too	_	RB	RB	_	5	advmod	_	_
+7	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	landlord	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	cleans	_	VB	VBZ	_	2	rcmod	_	_
+5	houses	_	VB	VBZ	_	0	root	_	_
+6	tourists	_	NN	NNS	_	5	dobj	_	_
+7	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	job	_	NN	NN	_	5	nsubj	_	_
+3	that	_	WD	WDT	_	4	nsubj	_	_
+4	pays	_	VB	VBZ	_	2	rcmod	_	_
+5	benefits	_	VB	VBZ	_	0	root	_	_
+6	the	_	DT	DT	_	7	det	_	_
+7	family	_	NN	NN	_	5	dobj	_	_
+8	.	_	.	.	_	5	punct	_	_
+
+1	My	_	PR	PRP$	_	2	poss	_	_
+2	teammate	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	leads	_	VB	VBZ	_	2	rcmod	_	_
+5	tours	_	VB	VBZ	_	0	root	_	_
+6	the	_	DT	DT	_	7	det	_	_
+7	world	_	NN	NN	_	5	dobj	_	_
+8	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	ranger	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	hunts	_	VB	VBZ	_	2	rcmod	_	_
+5	ducks	_	VB	VBZ	_	0	root	_	_
+6	out	_	IN	IN	_	5	advmod	_	_
+7	on	_	IN	IN	_	5	prep	_	_
+8	weekends	_	NN	NNS	_	7	pobj	_	_
+9	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	employee	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	codes	_	VB	VBZ	_	2	rcmod	_	_
+5	programs	_	VB	VBZ	_	0	root	_	_
+6	for	_	IN	IN	_	5	prep	_	_
+7	her	_	PR	PRP$	_	8	poss	_	_
+8	company	_	NN	NN	_	6	pobj	_	_
+9	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	child	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	whispers	_	VB	VBZ	_	2	rcmod	_	_
+5	lies	_	VB	VBZ	_	0	root	_	_
+6	all	_	PD	PDT	_	8	predet	_	_
+7	the	_	DT	DT	_	8	det	_	_
+8	time	_	NN	NN	_	5	npadvmod	_	_
+9	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	man	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	saves	_	VB	VBZ	_	2	rcmod	_	_
+5	bottles	_	VB	VBZ	_	0	root	_	_
+6	his	_	PR	PRP$	_	8	poss	_	_
+7	own	_	JJ	JJ	_	8	amod	_	_
+8	water	_	NN	NN	_	5	dobj	_	_
+9	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	child	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	grows	_	VB	VBZ	_	2	rcmod	_	_
+5	flowers	_	VB	VBZ	_	0	root	_	_
+6	as	_	IN	IN	_	8	mark	_	_
+7	she	_	PR	PRP	_	8	nsubj	_	_
+8	ages	_	VB	VBZ	_	5	advcl	_	_
+9	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	grandma	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	paints	_	VB	VBZ	_	2	rcmod	_	_
+5	gardens	_	VB	VBZ	_	0	root	_	_
+6	in	_	IN	IN	_	5	prep	_	_
+7	her	_	PR	PRP$	_	9	poss	_	_
+8	free	_	JJ	JJ	_	9	amod	_	_
+9	time	_	NN	NN	_	6	pobj	_	_
+10	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	criminal	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	steals	_	VB	VBZ	_	2	rcmod	_	_
+5	rides	_	VB	VBZ	_	0	root	_	_
+6	in	_	IN	IN	_	5	prep	_	_
+7	a	_	DT	DT	_	9	det	_	_
+8	fancy	_	JJ	JJ	_	9	amod	_	_
+9	car	_	NN	NN	_	6	pobj	_	_
+10	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	prankster	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	bakes	_	VB	VBZ	_	2	rcmod	_	_
+5	pies	_	VB	VBZ	_	0	root	_	_
+6	people	_	NN	NNS	_	5	dobj	_	_
+7	in	_	IN	IN	_	5	prep	_	_
+8	the	_	DT	DT	_	9	det	_	_
+9	face	_	NN	NN	_	7	pobj	_	_
+10	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	kid	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	bakes	_	VB	VBZ	_	2	rcmod	_	_
+5	cakes	_	VB	VBZ	_	0	root	_	_
+6	his	_	PR	PRP$	_	7	poss	_	_
+7	desserts	_	NN	NNS	_	5	dobj	_	_
+8	in	_	IN	IN	_	5	prep	_	_
+9	icing	_	NN	NN	_	8	pobj	_	_
+10	.	_	.	.	_	5	punct	_	_
+
+1	My	_	PR	PRP$	_	2	poss	_	_
+2	neighbor	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	mows	_	VB	VBZ	_	2	rcmod	_	_
+5	fields	_	VB	VBZ	_	0	root	_	_
+6	questions	_	NN	NNS	_	5	dobj	_	_
+7	about	_	IN	IN	_	6	prep	_	_
+8	his	_	PR	PRP$	_	9	poss	_	_
+9	mower	_	NN	NN	_	7	pobj	_	_
+10	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	woman	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	knits	_	VB	VBZ	_	2	rcmod	_	_
+5	blankets	_	VB	VBZ	_	0	root	_	_
+6	everyone	_	DT	DT	_	5	dobj	_	_
+7	in	_	IN	IN	_	5	prep	_	_
+8	handmade	_	JJ	JJ	_	9	amod	_	_
+9	gifts	_	NN	NNS	_	7	pobj	_	_
+10	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	teenager	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	babysits	_	VB	VBZ	_	2	rcmod	_	_
+5	kids	_	VB	VBZ	_	0	root	_	_
+6	around	_	IN	IN	_	5	advmod	_	_
+7	with	_	IN	IN	_	5	prep	_	_
+8	her	_	PR	PRP$	_	9	poss	_	_
+9	charges	_	NN	NNS	_	7	pobj	_	_
+10	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	designer	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	sews	_	VB	VBZ	_	2	rcmod	_	_
+5	dresses	_	VB	VBZ	_	0	root	_	_
+6	her	_	PR	PRP$	_	7	poss	_	_
+7	friends	_	NN	NNS	_	5	dobj	_	_
+8	in	_	IN	IN	_	5	prep	_	_
+9	bespoke	_	JJ	JJ	_	10	amod	_	_
+10	outfits	_	NN	NNS	_	8	pobj	_	_
+11	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	boy	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	reads	_	VB	VBZ	_	2	rcmod	_	_
+5	papers	_	VB	VBZ	_	0	root	_	_
+6	his	_	PR	PRP$	_	7	poss	_	_
+7	room	_	NN	NN	_	5	dobj	_	_
+8	in	_	IN	IN	_	5	prep	_	_
+9	book	_	JJ	JJ	_	10	nn	_	_
+10	posters	_	NN	NNS	_	8	pobj	_	_
+11	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	2	det	_	_
+2	student	_	NN	NN	_	5	nsubj	_	_
+3	who	_	WD	WDT	_	4	nsubj	_	_
+4	studies	_	VB	VBZ	_	2	rcmod	_	_
+5	books	_	VB	VBZ	_	0	root	_	_
+6	a	_	DT	DT	_	7	det	_	_
+7	table	_	NN	NN	_	5	dobj	_	_
+8	at	_	IN	IN	_	7	prep	_	_
+9	the	_	DT	DT	_	10	det	_	_
+10	library	_	NN	NN	_	8	pobj	_	_
+11	.	_	.	.	_	5	punct	_	_
+
+1	The	_	DT	DT	_	3	det	_	_
+2	Secret	_	NNP	NNP	_	3	nn	_	_
+3	Santa	_	NNP	NNP	_	6	nsubj	_	_
+4	who	_	WD	WDT	_	5	nsubj	_	_
+5	hides	_	VB	VBZ	_	3	rcmod	_	_
+6	presents	_	VB	VBZ	_	0	root	_	_
+7	a	_	DT	DT	_	9	det	_	_
+8	big	_	JJ	JJ	_	9	amod	_	_
+9	surprise	_	NN	NN	_	6	dobj	_	_
+10	.	_	.	.	_	5	punct	_	_

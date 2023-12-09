@@ -197,6 +197,18 @@ Here is an example visualization.
   <img src="./images/model_output_visualization.png">
 </p>
 
+### Garden Path Sentence Files and Outputs
+We have enclosed the garden path sentences we used and also the corresponding scored outputs.
+| Input File | Output File Scored | Raw Output File |
+| ---------- | ------------------ | --------------- |
+| [garden_path_1_inputs.conll](./data/garden_path_1_inputs.conll) | [garden_path_1_scored.pdf](./data/garden_path_1_scored.pdf) | [garden_path_1_output.txt](./outputs/garden_path_1_output.txt)|
+| [garden_path_2_inputs.conll](./data/garden_path_2_inputs.conll) | [garden_path_2_scored.pdf](./data/garden_path_2_scored.pdf) | [garden_path_2_output.txt](./outputs/garden_path_2_output.txt)|
+| [garden_path_3_inputs.conll](./data/garden_path_3_inputs.conll) | [garden_path_3_scored.pdf](./data/garden_path_3_scored.pdf) | [garden_path_3_output.txt](./outputs/garden_path_3_output.txt)|
+
+An example is shown below.
+<p align="center">
+  <img src="./images/scored.png">
+</p>
 # Citing the Original Paper
 ```bibtex
 @inproceedings{amini-etal-2023-hexatagging,

@@ -1,0 +1,129 @@
+==========================================
+SLURM_JOB_ID = 17913325
+SLURM_JOB_NODELIST = a03-06
+TMPDIR = /tmp/SLURM_17913325
+==========================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so
+CUDA SETUP: CUDA runtime path found: /spack/2206/apps/linux-centos7-x86_64_v3/gcc-11.3.0/cuda-11.8.0-w2z7mxp/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 8.6
+CUDA SETUP: Detected CUDA version 118
+CUDA SETUP: Loading binary /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so...
+predict Args Namespace(command='predict', model_name='English-hexa-bert-2e-05-50', lang='English', tagger='hexa', tag_vocab_path='data/vocab/', model_path='./checkpoints/', bert_model_path='xlnet-large-cased', output_path='./garden_path_results/', batch_size=2, max_depth=10, is_greedy=False, keep_per_depth=1, use_tensorboard=False)
+Evaluating xlnet-large-cased, hexa
+----------
+The toilet flooded caused problems .
+----------
+['l/nn', 'L/X^^^1', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^1', 'l/dep', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/dep']
+----------
+['0-2-nn', '1-2-nn', '2-4-dep', '3-4-dep', '4--1-root', '5-4-dep']
+----------
+The egg cracked yesterday went bad .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'r/tmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dep', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-4-nsubj', '2-1-dep', '3-2-tmod', '4--1-root', '5-4-dep', '6-4-dep']
+----------
+The horse raced past the barn fell .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'l/dep', 'R/X^^^1', 'r/dep']
+----------
+['0-1-nn', '1-2-nsubj', '2--1-root', '3-2-prep', '4-5-nn', '5-3-dep', '6-7-dep', '7-2-dep']
+----------
+The logs burned in the fireplace crackled .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-6-nsubj', '2-1-dep', '3-2-prep', '4-5-nn', '5-3-dep', '6--1-root', '7-6-dep']
+----------
+The pancakes drowned in syrup tasted delicious .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'r/dep', 'L/X^^^1', 'l/dep', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-6-nsubj', '2-1-dep', '3-2-prep', '4-3-dep', '5-6-dep', '6--1-dep', '7-6-dep']
+----------
+The bomb exploded yesterday destroyed the building .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'r/dep', 'L/X^^^0', 'r/appos', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-4-nsubj', '2-1-dep', '3-1-appos', '4--1-root', '5-6-nn', '6-4-dep', '7-4-dep']
+----------
+The knife carve from stone drew blood .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'r/dep', 'L/X^^^1', 'l/dep', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-6-nsubj', '2-1-dep', '3-2-prep', '4-3-dep', '5-6-dep', '6--1-root', '7-6-dep']
+----------
+The turkey cooked in the oven smelled good .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^1', 'l/dep', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-7-nsubj', '2-1-dep', '3-2-prep', '4-5-nn', '5-3-dep', '6-7-dep', '7--1-dep', '8-7-dep']
+----------
+The car crashed on the freeway was totaled .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^1', 'l/dep', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-7-nsubj', '2-1-dep', '3-2-prep', '4-5-nn', '5-3-dep', '6-7-dep', '7--1-root', '8-7-dep']
+----------
+The thread spun on the loom was green .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^1', 'l/dep', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/root']
+----------
+['0-1-nn', '1-7-nsubj', '2-1-dep', '3-2-prep', '4-5-nn', '5-3-dep', '6-7-dep', '7--1-root', '8-7-root']
+----------
+The muscles developed at the gym became sore .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^1', 'l/dep', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/root']
+----------
+['0-1-nn', '1-7-nsubj', '2-1-dep', '3-2-prep', '4-5-nn', '5-3-dep', '6-7-dep', '7--1-root', '8-7-root']
+----------
+The medicine improved over time cured many patients .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-2-nsubj', '2--1-nsubj', '3-4-nn', '4-2-dep', '5-2-dep', '6-7-nn', '7-5-dobj', '8-2-dep']
+----------
+The raft floated to the survivors saved them .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/prep', 'L/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'R/X^^^1', 'l/dep', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'r/root']
+----------
+['0-1-nn', '1-2-nsubj', '2--1-nsubj', '3-7-prep', '4-5-nn', '5-3-dep', '6-7-dep', '7-2-dep', '8-2-root']
+----------
+The nurse healed with chemotherapy returned to work .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'r/dep', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'r/dep', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-5-nsubj', '2-1-dep', '3-2-prep', '4-3-dep', '5--1-root', '6-5-prep', '7-6-dep', '8-5-dep']
+----------
+The soldier dropped from the plane parachuted to safety .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'r/dep', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-6-nsubj', '2-1-dep', '3-2-prep', '4-5-nn', '5-3-dep', '6--1-root', '7-6-prep', '8-7-dep', '9-6-dep']
+----------
+The spoon melted in the welding class became a ring .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^1', 'l/dep', 'R/X^^^1', 'l/nn', 'R/X^^^1', 'r/root', 'L/X^^^0', 'r/root']
+----------
+['0-1-nn', '1-9-nsubj', '2-1-prep', '3-2-prep', '4-6-nn', '5-6-nn', '6-3-dep', '7-9-dep', '8-9-nn', '9--1-root', '10-9-root']
+----------
+The truck moved out of the garage needed new oil .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'r/appos', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'l/nn', 'R/X^^^1', 'l/nn', 'R/X^^^1', 'l/nn', 'R/X^^^1', 'r/root']
+----------
+['0-1-nn', '1--1-nsubj', '2-1-appos', '3-1-prep', '4-3-prep', '5-6-nn', '6-4-dep', '7-10-nn', '8-10-nn', '9-10-nn', '10-1-root']
+----------
+The dice rolled on the table landed on snake eyes .
+----------
+['l/nn', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/dep', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/nn', 'R/X^^^1', 'r/dep', 'L/X^^^0', 'r/dep']
+----------
+['0-1-nn', '1-6-nsubj', '2-1-dep', '3-2-prep', '4-5-nn', '5-3-dep', '6--1-root', '7-6-prep', '8-9-nn', '9-7-dep', '10-6-dep']
+Saving predictions to ./garden_path_results/English-hexa-bert-2e-05-50.pred.json

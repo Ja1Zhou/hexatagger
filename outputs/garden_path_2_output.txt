@@ -1,0 +1,141 @@
+==========================================
+SLURM_JOB_ID = 17897725
+SLURM_JOB_NODELIST = b11-10
+TMPDIR = /tmp/SLURM_17897725
+==========================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so
+CUDA SETUP: CUDA runtime path found: /spack/2206/apps/linux-centos7-x86_64_v3/gcc-11.3.0/cuda-11.8.0-w2z7mxp/lib64/libcudart.so.11.0
+CUDA SETUP: Highest compute capability among GPUs detected: 8.6
+CUDA SETUP: Detected CUDA version 118
+CUDA SETUP: Loading binary /home1/zhejianz/.conda/envs/hgf/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda118.so...
+predict Args Namespace(command='predict', model_name='English-hexa-bert-2e-05-50', lang='English', tagger='hexa', tag_vocab_path='data/vocab/', model_path='./checkpoints/', bert_model_path='xlnet-large-cased', output_path='./garden_path_results/', batch_size=2, max_depth=10, is_greedy=False, keep_per_depth=1, use_tensorboard=False)
+Evaluating xlnet-large-cased, hexa
+----------
+The dog that plays fetches too .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/advmod', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-4-advmod']
+----------
+The landlord who cleans houses tourists .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-4-dobj']
+----------
+The job that pays benefits the family .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-6-det', '6-4-dobj']
+----------
+My teammate who leads tours the world .
+----------
+['l/pcomp', 'L/X^^^1', 'l/root', 'L/X^^^0', 'l/nsubj', 'L/X^^^1', 'r/rcmod', 'R/X^^^0', 'r/root', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-pcomp', '1--1-root', '2-3-nsubj', '3-1-rcmod', '4-3-root', '5-6-det', '6-1-dobj']
+----------
+The ranger who hunts ducks out on weekends .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/advmod', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-4-advmod', '6-4-prep', '7-6-pobj']
+----------
+The employee who codes programs for her company .
+----------
+['l/det', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/nsubj', 'L/X^^^1', 'r/rcmod', 'L/X^^^0', 'r/dobj', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/pcomp', 'R/X^^^0', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1--1-root', '2-3-nsubj', '3-1-rcmod', '4-3-dobj', '5-3-prep', '6-5-pcomp', '7-6-pobj']
+----------
+The child who whispers lies all the time .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-4-prep', '6-7-det', '7-5-dobj']
+----------
+The man who saves bottles his own water .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^1', 'l/amod', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-7-prep', '6-7-amod', '7-4-dobj']
+----------
+The child who grows flowers as she ages .
+----------
+['l/det', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/nsubj', 'L/X^^^1', 'r/rcmod', 'L/X^^^0', 'r/dobj', 'R/X^^^0', 'l/mark', 'R/X^^^1', 'l/nsubj', 'R/X^^^1', 'r/advcl', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1--1-root', '2-3-nsubj', '3-1-rcmod', '4-3-dobj', '5-7-mark', '6-7-nsubj', '7-3-advcl']
+----------
+The grandma who paints gardens in her free time .
+----------
+['l/det', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/nsubj', 'L/X^^^1', 'r/rcmod', 'L/X^^^0', 'r/dobj', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/pcomp', 'R/X^^^1', 'l/amod', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1--1-root', '2-3-nsubj', '3-1-rcmod', '4-3-dobj', '5-3-prep', '6-8-pcomp', '7-8-amod', '8-5-pobj']
+----------
+The criminal who steals rides in a fancy car .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'l/amod', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-4-prep', '6-8-det', '7-8-amod', '8-5-pobj']
+----------
+The prankster who bakes pies people in the face .
+----------
+['l/det', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/nsubj', 'L/X^^^1', 'r/rcmod', 'L/X^^^0', 'r/dep', 'L/X^^^0', 'r/dobj', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1--1-root', '2-3-nsubj', '3-1-rcmod', '4-3-dep', '5-3-dobj', '6-3-prep', '7-8-det', '8-6-pobj']
+----------
+The kid who bakes cakes his desserts in icing .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-6-det', '6-4-dobj', '7-4-prep', '8-7-pobj']
+----------
+My neighbor who mows fields questions about his mower .
+----------
+['l/pobj', 'L/X^^^1', 'l/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/dobj', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'r/pobj', 'R/X^^^0', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-4-pobj', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-4-dobj', '6-5-prep', '7-6-pobj', '8-4-pobj']
+----------
+The woman who knits blankets everyone in handmade gifts .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dobj', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/amod', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-4-dobj', '6-4-prep', '7-8-amod', '8-6-pobj']
+----------
+The teenager who babysits kids around with her charges .
+----------
+['l/det', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/nsubj', 'L/X^^^1', 'r/root', 'L/X^^^0', 'r/dobj', 'L/X^^^0', 'r/advmod', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/pcomp', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1--1-root', '2-3-nsubj', '3-1-root', '4-3-dobj', '5-3-advmod', '6-3-prep', '7-8-pcomp', '8-6-pobj']
+----------
+The designer who sews dresses her friends in bespoke outfits .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/amod', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-6-det', '6-4-dobj', '7-4-prep', '8-9-amod', '9-7-pobj']
+----------
+The boy who reads papers his room in book posters .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'r/dobj', 'L/X^^^0', 'l/prep', 'R/X^^^0', 'l/amod', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-6-det', '6-4-dobj', '7-4-prep', '8-9-amod', '9-7-pobj']
+----------
+The student who studies books a table at the library .
+----------
+['l/det', 'L/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'L/X^^^1', 'r/dobj', 'R/X^^^0', 'l/prep', 'R/X^^^0', 'l/det', 'R/X^^^1', 'r/pobj', 'L/X^^^0', 'r/punct']
+----------
+['0-1-det', '1-4-nsubj', '2-3-nsubj', '3-1-rcmod', '4--1-root', '5-6-det', '6-4-dobj', '7-6-prep', '8-9-det', '9-7-pobj']
+----------
+The Secret Santa who hides . presents a big surprise
+----------
+['l/det', 'L/X^^^1', 'l/nn', 'R/X^^^1', 'r/nsubj', 'L/X^^^0', 'l/nsubj', 'R/X^^^1', 'r/rcmod', 'L/X^^^1', 'l/punct', 'R/X^^^1', 'r/root', 'L/X^^^0', 'l/det', 'R/X^^^1', 'l/amod', 'R/X^^^1', 'r/dobj']
+----------
+['0-2-det', '1-2-nn', '2-6-nsubj', '3-4-nsubj', '4-2-rcmod', '6--1-root', '7-9-det', '8-9-amod', '9-6-dobj']
+Saving predictions to ./garden_path_results/English-hexa-bert-2e-05-50.pred.json

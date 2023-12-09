@@ -16,3 +16,4 @@
 # !eval_NAVN.conll
 # !eval_WVNV.conll
 !*.conll
+!*.pdf
