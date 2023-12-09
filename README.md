@@ -209,6 +209,7 @@ An example is shown below.
 <p align="center">
   <img src="./images/scored.png">
 </p>
+
 # Citing the Original Paper
 ```bibtex
 @inproceedings{amini-etal-2023-hexatagging,
